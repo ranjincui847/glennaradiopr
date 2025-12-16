@@ -5,22 +5,12 @@ excerpt: "Global Influencer Marketing & KOL Partnerships"
 permalink: /
 ---
 
-## I help brands connect with the right creators worldwide.
+## Influencer Marketing with Real Impact.
 
-I specialize in influencer outreach and campaign coordination,  
-supporting brands in building authentic partnerships  
-across **US, Europe, and Japan**.
-
----
-
-### What I Do
-- Global KOL sourcing & outreach  
-- Influencer relationship management  
-- Campaign coordination & delivery  
-- Cross-market communication  
+Connecting brands with the right influencers to amplify brand visibility and drive effective conversion, while enabling creators to collaborate on campaigns that match their account scale—making creativity, exposure, and recommendations more valuable..
 
 ---
 
 ### Contact
-📩 your@email.com  
-LinkedIn: your link
+📩 glenna@glennaradiopr.com
+Instagram: https://www.instagram.com/glennaradiopr/
