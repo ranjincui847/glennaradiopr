@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLENNA | Global KOL Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+        
+        :root {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --accent-gray: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+
+        /* 呼吸感线条动画 */
+        .line-grow {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #333, transparent);
+            width: 100%;
+            margin: 4rem 0;
+        }
+
+        /* 鼠标悬停时的平滑缩放 */
+        .hover-lift {
+            transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.6s;
+        }
+        .hover-lift:hover {
+            transform: translateY(-8px);
+            opacity: 0.8;
+        }
+
+        /* 隐藏未选语言 */
+        [lang-type] { display: none; }
+
+        /* 自定义滚动条 - 极简黑 */
+        ::-webkit-scrollbar { width: 5px; }
+        ::-webkit-scrollbar-track { background: #000; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full p-8 flex justify-between items-center z-50 mix-blend-difference">
+        <div class="font-bold tracking-tighter text-2xl">GLENNA</div>
+        <div class="hidden md:flex space-x-12 text-[10px] tracking-[0.2em]">
+            <a href="#work" class="hover:opacity-50 transition">WORK</a>
+            <a href="#services" class="hover:opacity-50 transition">SERVICES</a>
+            <a href="#contact" class="hover:opacity-50 transition">CONTACT</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex flex-col justify-center px-8 lg:px-24">
+        <div data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-6xl md:text-9xl font-extrabold tracking-tighter leading-[0.9] mb-8">
+                <span lang-type="en">Connecting<br>Creators<br>& Brands.</span>
+                <span lang-type="ja">クリエイターと<br>ブランドを<br>つなぐ。</span>
+            </h1>
+            <div class="flex flex-col md:flex-row md:items-center gap-6 mt-12">
+                <p class="text-gray-400 max-w-sm text-sm leading-relaxed tracking-wide">
+                    <span lang-type="en">Independent KOL Marketing Agent specializing in premium tech and lifestyle cross-border campaigns.</span>
+                    <span lang-type="ja">テック・ライフスタイル領域に特化した、欧米・日本市場向けの独立系マーケティングエージェント。</span>
+                </p>
+                <div class="h-[1px] w-20 bg-white hidden md:block"></div>
+                <span class="text-[10px] tracking-widest text-white border border-white px-4 py-2 rounded-full w-fit">GLOBAL REACH</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-32 px-8 lg:px-24" data-aos="fade-up">
+        <p class="text-[10px] text-gray-600 mb-16 tracking-[0.3em] uppercase">Partnerships</p>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-16 opacity-40">
+            <div class="text-xl font-light tracking-tighter hover:opacity-100 transition cursor-default">iGarden</div>
+            <div class="text-xl font-light tracking-tighter hover:opacity-100 transition cursor-default">KTC</div>
+            <div class="text-xl font-light tracking-tighter hover:opacity-100 transition cursor-default">BRAND 03</div>
+            <div class="text-xl font-light tracking-tighter hover:opacity-100 transition cursor-default">BRAND 04</div>
+            <div class="text-xl font-light tracking-tighter hover:opacity-100 transition cursor-default">BRAND 05</div>
+        </div>
+    </section>
+
+    <div class="line-grow"></div>
+
+    <section id="work" class="py-32 px-8 lg:px-24">
+        <div class="flex justify-between items-end mb-20" data-aos="fade-right">
+            <h2 class="text-4xl font-bold tracking-tighter">Selected Work</h2>
+            <span class="text-xs text-gray-500 pb-1">01 — 02</span>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-24">
+            <div class="hover-lift" data-aos="fade-up" data-aos-delay="100">
+                <div class="aspect-[4/5] bg-neutral-900 mb-8 flex items-center justify-center group overflow-hidden">
+                    <span class="text-neutral-800 group-hover:text-neutral-600 transition duration-700 italic">Lifestyle Campaign Preview</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-medium">Home Tech Review</h3>
+                        <p class="text-gray-500 text-xs mt-2 uppercase tracking-widest">US Market / YouTube</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hover-lift" data-aos="fade-up" data-aos-delay="300">
+                <div class="aspect-[4/5] bg-neutral-900 mb-8 flex items-center justify-center group overflow-hidden">
+                    <span class="text-neutral-800 group-hover:text-neutral-600 transition duration-700 italic">Professional Review Preview</span>
+                </div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-lg font-medium">Gaming Monitor Launch</h3>
+                        <p class="text-gray-500 text-xs mt-2 uppercase tracking-widest">Japan Market / Twitter & YT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-48 px-8 lg:px-24 text-center" data-aos="zoom-in">
+        <h2 class="text-5xl md:text-7xl font-bold tracking-tighter mb-16">Let's build <br>something global.</h2>
+        <div class="grid grid-cols-2 md:flex md:justify-center gap-x-12 gap-y-6 text-[10px] tracking-[0.2em] text-gray-500 uppercase">
+            <a href="#" class="hover:text-white transition">WhatsApp</a>
+            <a href="#" class="hover:text-white transition">Instagram</a>
+            <a href="#" class="hover:text-white transition">X / Twitter</a>
+            <a href="#" class="hover:text-white transition">TikTok</a>
+            <a href="mailto:contact@glenna.pro" class="col-span-2 md:col-span-1 hover:text-white transition underline underline-offset-8">Email</a>
+        </div>
+        <div class="mt-32 opacity-20 text-[9px] tracking-widest">
+            STAY MINIMAL. WORK GLOBAL. © 2026
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // 初始化动画库
+        AOS.init({
+            once: false,
+            mirror: true
+        });
+
+        // 语言切换
+        function setLanguage() {
+            const userLang = navigator.language || navigator.userLanguage;
+            const elements = document.querySelectorAll('[lang-type]');
+            const isJa = userLang.includes('ja');
+            
+            elements.forEach(el => {
+                if (el.getAttribute('lang-type') === (is
